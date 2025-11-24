@@ -170,15 +170,6 @@ export const translations = {
             '4-step quality inspection before dispatch',
             'Secure packaging with trackable delivery slots'
           ]
-        },
-        {
-          title: 'Service Portfolio',
-          services: [
-            { title: 'General Laundry', copy: 'Comprehensive wash and fold services' },
-            { title: 'Dry Cleaning', copy: 'Professional dry cleaning for formal attire' },
-            { title: 'Express Service', copy: 'Expedited processing for urgent requirements' },
-            { title: 'Specialty Fabrics', copy: 'Expert care for delicate and luxury materials' }
-          ]
         }
       ]
     },
@@ -554,15 +545,6 @@ export const translations = {
             'डिस्पैच से पहले 4-स्तरीय गुणवत्ता जाँच',
             'ट्रैकेबल स्लॉट्स के साथ सुरक्षित पैकेजिंग'
           ]
-        },
-        {
-          title: 'सेवा पोर्टफोलियो',
-          services: [
-            { title: 'जनरल लॉन्ड्री', copy: 'पूर्ण वॉश और फोल्ड सेवाएँ' },
-            { title: 'ड्राई क्लीनिंग', copy: 'औपचारिक परिधानों के लिए प्रोफ़ेशनल ड्राई क्लीन' },
-            { title: 'एक्सप्रेस सेवा', copy: 'तत्काल ज़रूरतों के लिए तेज़ प्रोसेसिंग' },
-            { title: 'स्पेशल्टी फ़ैब्रिक', copy: 'नाज़ुक और लक्ज़री सामग्री की एक्सपर्ट केयर' }
-          ]
         }
       ]
     },
@@ -901,15 +883,6 @@ export const translations = {
             'प्रशिक्षित तंत्रज्ञ',
             'डिस्पॅचपूर्वी 4 पातळी तपासणी',
             'ट्रॅकेबल डिलिव्हरी स्लॉट्स'
-          ]
-        },
-        {
-          title: 'सेवा पोर्टफोलिओ',
-          services: [
-            { title: 'जनरल लॉन्ड्री', copy: 'पूर्ण वॉश आणि फोल्ड सेवा' },
-            { title: 'ड्राय क्लिनिंग', copy: 'औपचारिक परिधानांसाठी' },
-            { title: 'एक्सप्रेस सेवा', copy: 'तत्काळ गरजांसाठी जलद प्रक्रिया' },
-            { title: 'विशेष फॅब्रिक', copy: 'नाजूक आणि लक्झरी सामग्रीची काळजी' }
           ]
         }
       ]
