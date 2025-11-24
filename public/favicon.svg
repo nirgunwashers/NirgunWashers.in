@@ -1,14 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
-    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#5FB8A8;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3A9DBF;stop-opacity:1" />
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4DB8E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0E9ACF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB347;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF9500;stop-opacity:1" />
     </linearGradient>
   </defs>
   
-  <!-- Teal arc (left) -->
-  <path d="M 4 4 Q 2 4 2 6 L 2 26 Q 2 28 4 28 L 10 28 L 12 26 L 12 20 L 6 20 L 6 12 L 12 12 L 12 6 L 10 4 Z" fill="url(#teal)"/>
+  <!-- Cyan C shape (left) -->
+  <path d="M 8 3 Q 3 3 3 8 L 3 24 Q 3 29 8 29 L 11 29 L 11 25 L 8 25 Q 7 25 7 24 L 7 8 Q 7 7 8 7 L 11 7 L 11 3 Z" fill="url(#cyan)"/>
   
-  <!-- Orange/Yellow N -->
-  <path d="M 14 10 L 14 28 L 17 28 L 23 18 L 23 28 L 26 28 L 26 10 L 23 10 L 17 20 L 17 10 Z" fill="#FFA500"/>
+  <!-- Orange N -->
+  <path d="M 13 9 L 13 29 L 16 29 L 23 16 L 23 29 L 26 29 L 26 9 L 23 9 L 16 22 L 16 9 Z" fill="url(#orange)"/>
+  
+  <!-- Orange arc (right bottom) -->
+  <path d="M 28 20 L 28 24 Q 28 29 23 29 L 26 29 Q 29 29 29 26 L 29 20 Z" fill="url(#orange)"/>
 </svg>
