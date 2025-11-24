@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import Admin from './pages/Admin'
 import ScrollToTop from './ScrollToTop'
 import { LanguageProvider } from './context/LanguageContext'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <span className="floating-call-icon">📞</span>
           </a>
         </div>
+        <Analytics />
       </Router>
     </LanguageProvider>
   )
