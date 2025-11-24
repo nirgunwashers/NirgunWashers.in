@@ -28,18 +28,6 @@ export default function About() {
                   ))}
                 </ul>
               )}
-
-              {section.services && (
-                <div className="services-list">
-                  {section.services.map((service) => (
-                    <div key={service.title} className="service-item">
-                      <div className="service-icon"></div>
-                      <h4>{service.title}</h4>
-                      <p>{service.copy}</p>
-                    </div>
-                  ))}
-                </div>
-              )}
             </div>
           ))}
         </div>

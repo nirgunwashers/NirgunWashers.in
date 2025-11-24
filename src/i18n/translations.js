@@ -87,7 +87,7 @@ export const translations = {
       originalShopHeading: 'Our Established Location',
       shopName: 'Innovative Laundry Basket',
       shopLocation: 'Ravet, Pimpri-Chinchwad',
-      shopAddress: 'Near Dypiu/Dypcoe , Ravet, Pimpri-Chinchwad, Maharashtra 412101',
+      shopAddress: 'Near DY Patil College,Ravet,Pimpri-Chinchwad, Maharashtra 411033',
       shopRating: '4.8★',
       shopReviews: '150+ Reviews',
       viewAllReviews: 'View All Google Reviews',
