@@ -380,6 +380,16 @@
     padding: 2rem;
   }
 
+  .service-icon {
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+  }
+
+  .service-icon svg {
+    stroke-width: 1.5;
+  }
+
   .service-header h3 {
     font-size: 1.35rem;
   }
