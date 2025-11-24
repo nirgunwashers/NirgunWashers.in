@@ -16,6 +16,6 @@
   <!-- Cyan arc (left) -->
   <path d="M 16 8 Q 8 8 8 16 L 8 48 Q 8 56 16 56 L 24 56 L 24 50 L 16 50 Q 14 50 14 48 L 14 16 Q 14 14 16 14 L 24 14 L 24 8 Z" fill="url(#cyan)"/>
   
-  <!-- Orange N (center) -->
-  <path d="M 28 18 L 28 56 L 34 56 L 46 32 L 46 56 L 52 56 L 52 18 L 46 18 L 34 42 L 34 18 Z" fill="url(#orange)"/>
+  <!-- Orange N (center, corrected direction) -->
+  <path d="M 28 18 L 28 56 L 34 56 L 34 42 L 46 56 L 52 56 L 52 18 L 46 18 L 46 32 L 34 18 Z" fill="url(#orange)"/>
 </svg>
