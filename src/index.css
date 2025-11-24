@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600&display=swap');
+
+:root {
+  --color-deep: #0f1419;
+  --color-ink: #1a202c;
+  --color-charcoal: #2d3748;
+  --color-navy: #1e2a3a;
+  --color-muted: #a0aec0;
+  --color-soft: #2d3748;
+  --color-panel: #1a202c;
+  --color-accent: #d4af37;
+  --color-accent-dark: #b8941f;
+  --color-accent-soft: #3a3020;
+  --color-gold: #d4af37;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.35), 0 10px 20px rgba(0, 0, 0, 0.2);
+  --shadow-gold: 0 4px 16px rgba(212, 175, 55, 0.15);
+  --radius-lg: 8px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Manrope', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  color: #e2e8f0;
+  background: linear-gradient(135deg, #0a0e14 0%, #1a202c 50%, #0f1419 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(212, 175, 55, 0.01) 2px, rgba(212, 175, 55, 0.01) 4px),
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(212, 175, 55, 0.01) 2px, rgba(212, 175, 55, 0.01) 4px);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  background: none;
+}
+
+main {
+  width: min(1200px, 100% - 3rem);
+  margin: 0 auto;
+}
+
+.page-eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  font-weight: 700;
+}
+
+.page-heading {
+  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  line-height: 1.2;
+  color: #ffffff;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+
+.page-subheading {
+  color: #cbd5e0;
+  max-width: 720px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e7eb;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 102, 141, 0.4);
+  border-radius: 999px;
+}
+
+/* Luxury Dividers */
+.luxury-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(212, 175, 55, 0.3) 50%, transparent 100%);
+  margin: 2rem 0;
+}
+
+.luxury-divider-vertical {
+  width: 1px;
+  background: linear-gradient(180deg, transparent 0%, rgba(212, 175, 55, 0.3) 50%, transparent 100%);
+  height: 100%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 102, 141, 0.65);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
