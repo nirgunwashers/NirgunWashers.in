@@ -110,21 +110,6 @@ export default function Maps() {
           </div>
         </div>
       </section>
-
-      <section className="map-features">
-        <div className="features-container">
-          <h2>{t.featuresHeading}</h2>
-          <div className="features-grid">
-            {t.features.map((feature) => (
-              <div className="feature" key={feature.title}>
-                <div className="feature-icon"></div>
-                <h3>{feature.title}</h3>
-                <p>{feature.copy}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </main>
   )
 }
