@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343 400">
   <defs>
-    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#5FB8A8;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#3A9DBF;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#2C7A8C;stop-opacity:1" />
@@ -11,12 +11,12 @@
     </linearGradient>
   </defs>
   
-  <!-- Left part (teal gradient arc) -->
-  <path d="M 80 60 Q 40 60 40 100 L 40 300 Q 40 340 80 340 L 140 340 L 140 280 Q 140 240 100 240 L 100 160 Q 140 160 140 120 L 140 60 Z" fill="url(#blueGrad)"/>
+  <!-- Left teal arc -->
+  <path d="M 60 20 Q 20 20 20 60 L 20 340 Q 20 380 60 380 L 130 380 L 160 350 L 160 280 Q 160 250 130 250 L 80 250 L 80 150 Q 110 150 130 150 L 160 120 L 160 50 L 130 20 Z" fill="url(#tealGrad)"/>
   
-  <!-- White N -->
-  <path d="M 150 160 L 150 340 L 190 340 L 260 220 L 260 340 L 300 340 L 300 160 L 260 160 L 190 280 L 190 160 Z" fill="#FFFFFF"/>
+  <!-- Black N -->
+  <path d="M 90 160 L 90 365 L 130 365 L 210 235 L 210 365 L 250 365 L 250 160 L 210 160 L 130 290 L 130 160 Z" fill="#000000"/>
   
-  <!-- Right part (orange gradient arc) -->
-  <path d="M 310 60 L 310 120 Q 310 160 350 160 L 350 240 Q 310 240 310 280 L 310 340 L 370 340 Q 410 340 410 300 L 410 100 Q 410 60 370 60 Z" fill="url(#orangeGrad)"/>
+  <!-- Right orange arc -->
+  <path d="M 213 20 L 183 50 L 183 120 L 213 150 Q 243 150 263 150 L 263 250 L 213 250 Q 183 250 183 280 L 183 350 L 213 380 L 283 380 Q 323 380 323 340 L 323 60 Q 323 20 283 20 Z" fill="url(#orangeGrad)"/>
 </svg>
