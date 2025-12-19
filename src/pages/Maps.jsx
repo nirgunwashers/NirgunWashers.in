@@ -99,7 +99,7 @@ export default function Maps() {
 
             <div className="directions-btn">
               <a 
-                href="https://share.google/Ct6swCF3ghxfYrwoc"
+                href="https://share.google/iSraJdkW1b7RoVEYh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-get-directions"
